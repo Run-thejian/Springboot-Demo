@@ -19,6 +19,8 @@ public class IndexController {
     @RequestMapping("/test")
     public String test(Model model){
         model.addAttribute("msg","hello,springboot");
+//        model.addAttribute("msg","<h1>hello,springboot</h1>");
+
         return "test";
     }
 }
